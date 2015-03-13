@@ -25,7 +25,7 @@ Once configured, the Google Analytics tracking code will be injected into your i
 ```
 import Ember from 'ember';
 import config from './config/environment';
-import googlePageview from './mixins/google-pageview';
+import googlePageview from 'google-pageview';
 
 var Router = Ember.Router.extend(googlePageview, {
   location: config.locationType
